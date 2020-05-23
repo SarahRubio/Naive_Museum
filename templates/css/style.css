@@ -86,9 +86,24 @@ table {
   padding-bottom: 3vh;
 }
 
+.padbot5
+{
+  padding-bottom: 5vh;
+}
+
 .padbot1
 {
   padding-bottom: 1vh;
+}
+
+.padbot10
+{
+  padding-bottom: 10vh;
+}
+
+.padtop10
+{
+  padding-top: 10vh;
 }
 
 .padFull3
@@ -260,4 +275,46 @@ footer nav li a
 .aicenter
 {
   align-items: center;
+}
+
+.acces a
+{
+	text-decoration: underline;
+	color: black;
+}
+
+.container-grid
+{
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-auto-rows: 250px 200px;
+	grid-gap: 10px;
+}
+
+.gallery-container
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.gallery-container .image
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.gallery-container .image img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	transition: .5s ease-in-out;
+}
+
+.gallery-container:hover .image img
+{
+	transform: scale(1.5);
 }

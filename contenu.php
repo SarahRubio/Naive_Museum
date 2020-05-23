@@ -2,8 +2,15 @@
 
 $contenuSite =  [
   "adresse" => array(
-    "rue" => "Parentie",
-    "ville" => "24190 - Chantérac",
+    "rue" => "110 boulevard Richard Lenoir",
+    "ville" => "75011 - Paris",
+    "tel" => "Tél. : 33 (0) 1 xx 58 xx 89",
+    "acces" => "https://www.google.fr/maps/place/Oberkampf/@48.8648496,2.3660797,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66dfd421b604d:0x7c98132bd80b3e09!8m2!3d48.8648496!4d2.3682684",
+  ),
+
+  "ouverture" => array(
+    "jours" => "Ouvert tous les jours",
+    "heures" => "Semaine de 11h à 18h / Samedi de 11h à 19h / Dimanche de 12h à 18h",
   ),
 
   "artiste1" => array(

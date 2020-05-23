@@ -13,27 +13,30 @@
       </div>
 
       <main class="padtopbot10 paddinglr10">
-        <h2 class="font2 padbot3 fontBlue">Infos Pratiques</h2>
-        <div class="tjustify lineheight15">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
+        <h2 class="font2 padbot10 fontBlue tcenter">Infos Pratiques</h2>
 
-         <h3 class="padbot3">Adresse :</h3>
-         <div class="adress">
+         <div class="adress padbot5">
+           <h3 class="padbot1 underline maj bold fontBlue">Adresse :</h3>
            <p class="lineheight15 bold league maj"><?php echo $nom_du_musee; ?></p>
-           <p class="lineheight15"><?php echo $contenuSite["adresse"]["rue"]; ?></p>
-           <p class="lineheight15"><?php echo $contenuSite["adresse"]["ville"]; ?></p>
-           <p class="lineheight15">Ouvert tous les jours</p>
-           <p class="lineheight15">Semaine de 11h à 18h / Samedi de 11h à 19h / Dimanche de 12h à 18h</p>
+           <p class="lineheight15"><?php echo $contenuSite["adresse"]["rue"] . " " . $contenuSite["adresse"]["ville"]; ?></p>
+           <p class="lineheight15"><?php echo $contenuSite["adresse"]["tel"]; ?></p>
          </div>
 
-         <div class="adress fontWhite tcenter">
-
-           <p class="lineheight15">Ouvert tous les jours</p>
-           <p class="lineheight15">Semaine de 11h à 18h / Samedi de 11h à 19h / Dimanche de 12h à 18h</p>
+         <div class="acces padbot5">
+           <h3 class="padbot1 underline maj bold fontBlue">Accès :</h3>
+           <p class="lineheight15">Métro : <a href="<?php echo $contenuSite["adresse"]["acces"]; ?>">Oberkampf/Parmentier</a></p>
          </div>
 
+         <div class="ouverture padbot5">
+          <h3 class="underline maj padbot1 bold fontBlue">Horaires d'ouverture :</h3>
+           <p class="lineheight15"><?php echo $contenuSite["ouverture"]["jours"]; ?></p>
+           <p class="lineheight15"><?php echo $contenuSite["ouverture"]["heures"]; ?></p>
+         </div>
 
+         <div class="">
+           <h3 class="underline maj padbot3 bold fontBlue">Plan d'accès :</h3>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.2122180563097!2d2.380330161670075!3d48.86084654351017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dfcec02efc3%3A0xe54873e4baffa22d!2s110%20Boulevard%20Richard-Lenoir%2C%2075011%20Paris!5e1!3m2!1sfr!2sfr!4v1590242369602!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>
       </main>
 
       <?php include $_dossier_template . "include/footer.php" ?>
