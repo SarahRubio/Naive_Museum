@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************* Mon css à moi  */
+
+.maj
+{
+	text-transform: uppercase;
+}
+
+.league
+{
+	font-family: 'Cutive Mono', monospace;
+}
+
+.marg10
+{
+	margin: 10vh 10vw;
+}
+
+.margbot1
+{
+	margin-bottom: 1vh;
+}
+
+.padtopbot10
+{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.paddinglr10
+{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.padbot3
+{
+  padding-bottom: 3vh;
+}
+
+.padbot1
+{
+  padding-bottom: 1vh;
+}
+
+.padFull3
+{
+	padding: 3vh 3vw;
+}
+
+.padtopbot4
+{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.lineheight15
+{
+  line-height: 1.5em;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+nav ul li a
+{
+  color: #fff;
+  text-decoration: none;
+	display: block;
+}
+
+nav ul li a:hover
+{
+  color: #013c71;
+}
+
+nav ul li
+{
+  list-style: none;
+}
+
+nav ul
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container nav
+{
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+}
+
+footer nav ul
+{
+  display: flex;
+  flex-direction: column;
+}
+
+footer nav li
+{
+  line-height: 1.5em;
+}
+
+footer nav li a
+{
+  line-height: 1.5em;
+}
+
+.bgBlue
+{
+  background-color: #aacbdf;
+}
+
+.fontBlue
+{
+	color: #aacbdf;
+}
+
+.bgWhite
+{
+	background-color: white;
+}
+
+.tcenter
+{
+  text-align: center;
+}
+
+.tjustify
+{
+  text-align: justify;
+}
+
+.fontWhite
+{
+  color: #fff;
+}
+
+.fontDarkBlue
+{
+	color: #013c71;
+}
+
+.font3
+{
+  font-size: 3em;
+}
+
+.font2
+{
+  font-size: 2em;
+}
+
+.font1
+{
+  font-size: 1em;
+}
+
+.font15
+{
+  font-size: 1.5em;
+}
+
+.width300
+{
+	width: 300px;
+}
+
+.borderBotWhite
+{
+  border-bottom: solid 2px white;
+}
+
+.borderBlue
+{
+  border-bottom: solid 2px #aacbdf;
+}
+
+.borderRa40
+{
+	border-radius: 40px;
+}
+
+.flex
+{
+  display: flex;
+}
+
+.column
+{
+  flex-direction: column;
+}
+
+.jbetw
+{
+  justify-content: space-between;
+}
+
+.jaround
+{
+  justify-content: space-around;
+}
+
+.aicenter
+{
+  align-items: center;
+}
