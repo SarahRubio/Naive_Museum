@@ -318,3 +318,11 @@ footer nav li a
 {
 	transform: scale(1.5);
 }
+
+.artisteChoice a
+{
+	text-decoration: none;
+	line-height: 1.5em;
+	color: #000;
+	padding-left: 5vw;
+}

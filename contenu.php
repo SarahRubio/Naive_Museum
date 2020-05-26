@@ -13,17 +13,18 @@ $contenuSite =  [
     "heures" => "Semaine de 11h à 18h / Samedi de 11h à 19h / Dimanche de 12h à 18h",
   ),
 
-  "artiste1" => array(
-    "nom" => "Annette MESSAGER",
-    "about" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageOeuvre" => "templates/images/photographie1_mini.jpg",
-  ),
+  "artistes" => array (
+    "Annette MESSAGER" => array(
+      "nom" => "Annette MESSAGER",
+      "about" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imageOeuvre" => "templates/images/photographie1_mini.jpg",
+    ),
 
-  "artiste2" => array(
-    "nom" => "Louise BOURGEOIS",
-    "about" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageOeuvre" => "templates/images/photographie2_mini.jpg",
+    "Louise BOURGEOIS" => array(
+      "nom" => "Louise BOURGEOIS",
+      "about" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imageOeuvre" => "templates/images/photographie2_mini.jpg",
+    ),
   ),
-
 
 ];

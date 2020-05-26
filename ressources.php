@@ -1,4 +1,5 @@
 <?php include "config.php"; ?>
+<?php include "contenu.php"; ?>
 <?php include $_dossier_template . "include/head.php"; ?>
 
   <body class="bgBlue">
@@ -17,8 +18,17 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
 
+        <h3 class= "padbot3 underline">Nos artistes :</h3>
 
-        <label for="" class="borderBlue"><input type="text" name="" value="" placeholder="Rechercher 🔎" class="padFull3 font1 borderRa40 tcenter borderBlue"> </label>
+        <div class="artisteChoice">
+          <ul>
+            <?php
+            foreach ($contenuSite["artistes"] as $key => $valeur) {
+              echo "<li><a href='artiste.php?artisteChoisi=$key'>✒︎ $key</a></li>";
+            }
+            ?>
+          </ul>
+        </div>
 
       </main>
 
