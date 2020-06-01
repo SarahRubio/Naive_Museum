@@ -91,6 +91,11 @@ table {
   padding-bottom: 5vh;
 }
 
+.padbot10
+{
+  padding-bottom: 10vh;
+}
+
 .padbot1
 {
   padding-bottom: 1vh;
@@ -109,6 +114,16 @@ table {
 .padFull3
 {
 	padding: 3vh 3vw;
+}
+
+.padFull1
+{
+	padding: 1vh 1vw;
+}
+
+.padFull15
+{
+	padding: 1.5vh 1.5vw;
 }
 
 .padtopbot4
@@ -245,6 +260,11 @@ footer nav li a
 .borderBlue
 {
   border-bottom: solid 2px #aacbdf;
+}
+
+.borderFullBlue
+{
+  border: solid 1px #aacbdf;
 }
 
 .borderRa40
