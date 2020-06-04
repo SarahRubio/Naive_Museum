@@ -22,11 +22,13 @@
 
         <div class="artisteChoice">
           <ul>
-            <?php
-            foreach ($contenuSite["artistes"] as $key => $valeur) {
-              echo "<li><a href='artiste.php?artisteChoisi=$key'>✒︎ $key</a></li>";
-            }
-            ?>
+              <?php
+
+                #foreach ($contenuSite["artistes"] as $key => $valeur) {
+                  #echo "<li><a href='artiste.php?artisteChoisi=$key'>✒︎ $key</a></li>";
+                #}
+
+              ?>
           </ul>
         </div>
 

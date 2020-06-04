@@ -75,6 +75,12 @@ table {
   padding-bottom: 10vh;
 }
 
+.padtop4
+{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
 .paddinglr10
 {
   padding-left: 10vw;
@@ -130,6 +136,11 @@ table {
 {
   padding-top: 4vh;
   padding-bottom: 4vh;
+}
+
+.padtop2
+{
+	padding-top: 2vh;
 }
 
 .lineheight15
@@ -210,6 +221,11 @@ footer nav li a
 .tcenter
 {
   text-align: center;
+}
+
+.tright
+{
+  text-align: right;
 }
 
 .tjustify
@@ -345,4 +361,38 @@ footer nav li a
 	line-height: 1.5em;
 	color: #000;
 	padding-left: 5vw;
+}
+
+.label-file
+{
+	font-weight: 								bold;
+	background-color: 					inherit;
+	padding: 										2vh 2vw;
+	cursor: 										pointer;
+	text-align: 								center;
+	border: 										solid 1px #aacbdf;
+}
+
+.label-file:hover, .label-file:active
+{
+	border: 										solid 2px #aacbdf;
+}
+
+.input-file
+{
+	opacity: 										0;
+}
+
+.preview
+{
+	text-align: 								center;
+	font-size: 									0.8em;
+}
+
+.envoyer
+{
+	padding: 										2vh 2vw;
+	cursor: 										pointer;
+	text-align: 								center;
+	border: 										solid 1px #aacbdf;
 }
