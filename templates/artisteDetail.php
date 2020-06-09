@@ -1,4 +1,4 @@
-<?php include "include/head.php" ?>
+<?php include "include/head.php"?>
 
   <body class="bgBlue">
 
@@ -12,13 +12,13 @@
 
     <main class="paddinglr10 padtopbot10">
       <div class="flex jaround aicenter padbot3">
-        <div class="width300">
+        <div class="width500">
           <h2 class="font2 padbot3 fontBlue"><?php echo $artiste["nom"]; ?></h2>
           <div class="tjustify lineheight15">
             <?php echo $artiste["about"]; ?>
           </div>
         </div>
-        <img src="<?php echo $artiste["imageOeuvre"]; ?>" alt="une photo">
+        <img src="<?php echo $artiste["image"]; ?>" alt="une photo">
       </div>
     </main>
 

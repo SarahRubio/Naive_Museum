@@ -1,5 +1,4 @@
 <?php include "config.php"; ?>
-<?php include "contenu.php"; ?>
 <?php include $_dossier_template . "include/head.php"; ?>
 
   <body class="bgBlue">
@@ -24,9 +23,11 @@
           <ul>
               <?php
 
-                #foreach ($contenuSite["artistes"] as $key => $valeur) {
-                  #echo "<li><a href='artiste.php?artisteChoisi=$key'>✒︎ $key</a></li>";
-                #}
+                $resultartistes = $bdd -> query("SELECT * FROM artistes") -> fetchAll();
+
+                foreach ($resultartistes as $key => $artiste) {
+                  echo "<li><a href=\"artiste.php?artisteChoisi=$artiste[id_artiste]\">✒︎ $artiste[nom]</a></li>";
+                }
 
               ?>
           </ul>

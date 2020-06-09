@@ -4,8 +4,8 @@ session_start();
 if (
     isset($_POST['identifiant']) &&
     isset($_POST['password']) &&
-    $_POST['identifiant'] == 'admin@gmail.com' &&
-    $_POST['password'] == 'adminadmin'
+    $_POST['identifiant'] == 'admin' &&
+    $_POST['password'] == 'admin'
   ){
     $_SESSION["droit_connexion"] = TRUE;
     header("location:administration.php");

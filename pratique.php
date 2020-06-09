@@ -1,6 +1,11 @@
-<?php include "config.php" ?>
-<?php include "contenu.php" ?>
-<?php include $_dossier_template . "include/head.php" ?>
+<?php
+include "config.php";
+include $_dossier_template . "include/head.php";
+
+$result_adress = $bdd -> query("SELECT * FROM adresse WHERE id_adresse = 1") -> Fetch();
+$result_ouverture = $bdd -> query("SELECT * FROM ouverture WHERE id_ouverture = 1") -> Fetch();
+
+?>
 
   <body class="bgBlue">
 
@@ -18,19 +23,19 @@
          <div class="adress padbot5">
            <h3 class="padbot1 underline maj bold fontBlue">Adresse :</h3>
            <p class="lineheight15 bold league maj"><?php echo $nom_du_musee; ?></p>
-           <p class="lineheight15"><?php echo $contenuSite["adresse"]["rue"] . " " . $contenuSite["adresse"]["ville"]; ?></p>
-           <p class="lineheight15"><?php echo $contenuSite["adresse"]["tel"]; ?></p>
+           <p class="lineheight15"><?php echo $result_adress["rue"] . " " . $result_adress["ville"]; ?></p>
+           <p class="lineheight15"><?php echo $result_adress["tél"]; ?></p>
          </div>
 
          <div class="acces padbot5">
            <h3 class="padbot1 underline maj bold fontBlue">Accès :</h3>
-           <p class="lineheight15">Métro : <a href="<?php echo $contenuSite["adresse"]["acces"]; ?>">Oberkampf/Parmentier</a></p>
+           <p class="lineheight15">Métro : <a href="">Oberkampf/Parmentier</a></p>
          </div>
 
          <div class="ouverture padbot5">
           <h3 class="underline maj padbot1 bold fontBlue">Horaires d'ouverture :</h3>
-           <p class="lineheight15"><?php echo $contenuSite["ouverture"]["jours"]; ?></p>
-           <p class="lineheight15"><?php echo $contenuSite["ouverture"]["heures"]; ?></p>
+           <p class="lineheight15"><?php echo $result_ouverture["jours"]; ?></p>
+           <p class="lineheight15"><?php echo $result_ouverture["heures"]; ?></p>
          </div>
 
          <div class="">
